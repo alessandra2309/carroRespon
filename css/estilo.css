@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+#todo{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 7%;
+   
+}
+
+#ladoE{
+    width: 25%;
+    height: 450px;
+    background-color:hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+#meio{
+    width: 25%;
+    height: 450px;
+    background-color:hsl(184, 100%, 22%);
+}
+
+#ladoD{
+    width: 25%;
+    height: 450px;
+    background-color:hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media screen and (max-width: 650px) {
+    
+    #todo{
+        display: block;
+    }
+    #ladoE{
+        width: 90%;
+        background-color:hsl(31, 77%, 52%);
+    }
+    #meio{
+        width: 90%;
+        background-color:hsl(184, 100%, 22%);
+    }
+    #ladoD{
+        width: 90%;
+        background-color:hsl(179, 100%, 13%);
+    }
+
+    #b1{
+        width: 5px;
+        height: 5px;
+    }
+    #b2{
+        width: 5px;
+        height:5px;
+    }
+    #b3{
+        width: 5px;
+        height:5px;
+    }
+    
+}
+
+
+img{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    margin-left: 40px;
+    color:white;
+}
+
+#um{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    color:rgb(243, 231, 208);
+    margin-left: 40px;
+    margin-top:15% ;
+    line-height: 1.5;
+}
+#dois{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    color:rgb(175, 209, 223);
+    margin-left: 40px;
+    margin-top:15% ;
+    line-height: 1.5;
+}
+
+#tres{
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+    color:hsl(179, 39%, 69%);;
+    margin-left: 40px;
+    margin-top:15% ;
+    line-height: 1.5;
+}
+
+#b1{
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    margin-top:20%;
+    background-color: white;
+    margin-bottom: 5px;
+    font-family: "Lexend Deca", sans-serif;
+    color:hsl(31, 77%, 52%);
+}
+
+#b2{
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    margin-top:20%;
+    background-color: white;
+    margin-bottom: 5px;
+    font-family: "Lexend Deca", sans-serif;
+    color:hsl(184, 100%, 22%);
+}
+
+#b3{
+    width: 140px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 40px;
+    margin-top:20%;
+    background-color: white;
+    margin-bottom: 5px;
+    font-family: "Lexend Deca", sans-serif;
+    color:hsl(179, 100%, 13%);
+}
